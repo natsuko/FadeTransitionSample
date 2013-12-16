@@ -22,6 +22,7 @@
 		094CF8B4185F4614002BF349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094CF893185F4614002BF349 /* UIKit.framework */; };
 		094CF8BC185F4614002BF349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094CF8BA185F4614002BF349 /* InfoPlist.strings */; };
 		094CF8BE185F4614002BF349 /* FadeTransitionSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CF8BD185F4614002BF349 /* FadeTransitionSampleTests.m */; };
+		094CF8C9185F4624002BF349 /* FadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CF8C8185F4624002BF349 /* FadeAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		094CF8B9185F4614002BF349 /* FadeTransitionSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadeTransitionSampleTests-Info.plist"; sourceTree = "<group>"; };
 		094CF8BB185F4614002BF349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		094CF8BD185F4614002BF349 /* FadeTransitionSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeTransitionSampleTests.m; sourceTree = "<group>"; };
+		094CF8C7185F4624002BF349 /* FadeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeAnimationController.h; sourceTree = "<group>"; };
+		094CF8C8185F4624002BF349 /* FadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				094CF8A5185F4614002BF349 /* MainViewController.m */,
 				094CF8A7185F4614002BF349 /* FlipsideViewController.h */,
 				094CF8A8185F4614002BF349 /* FlipsideViewController.m */,
+				094CF8C7185F4624002BF349 /* FadeAnimationController.h */,
+				094CF8C8185F4624002BF349 /* FadeAnimationController.m */,
 				094CF8AA185F4614002BF349 /* Images.xcassets */,
 				094CF896185F4614002BF349 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				094CF8A0185F4614002BF349 /* AppDelegate.m in Sources */,
 				094CF8A6185F4614002BF349 /* MainViewController.m in Sources */,
+				094CF8C9185F4624002BF349 /* FadeAnimationController.m in Sources */,
 				094CF8A9185F4614002BF349 /* FlipsideViewController.m in Sources */,
 				094CF89C185F4614002BF349 /* main.m in Sources */,
 			);

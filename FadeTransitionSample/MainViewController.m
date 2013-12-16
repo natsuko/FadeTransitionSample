@@ -7,8 +7,9 @@
 //
 
 #import "MainViewController.h"
+#import "FadeAnimationController.h"
 
-@interface MainViewController ()
+@interface MainViewController () <UIViewControllerTransitioningDelegate>
 
 @end
 
@@ -37,7 +38,15 @@
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
         [[segue destinationViewController] setDelegate:self];
+        [[segue destinationViewController] setTransitioningDelegate:self]; // 画面遷移デリゲートを設定
     }
+}
+
+#pragma mark UIViewControllerTransitioningDelegate
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
+{
+    return [[FadeAnimationController alloc] init];
 }
 
 @end
